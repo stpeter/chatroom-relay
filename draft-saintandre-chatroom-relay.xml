@@ -5,7 +5,7 @@
 <?rfc symrefs="yes"?>
 <?rfc toc="yes"?>
 <?rfc tocdepth="3"?>
-<rfc category="info" docName="draft-saintandre-chatroom-relay-00" ipr="trust200902">
+<rfc category="info" docName="draft-saintandre-chatroom-relay-01" ipr="trust200902">
 
   <front>
     <title abbrev="Chatroom Relay Role">The Chatroom Relay Role at IETF Meetings</title>
@@ -25,14 +25,14 @@
     <keyword>Jabber Scribe</keyword>
     <keyword>meetings</keyword>
     <abstract>
-      <t>During IETF meetings, individual volunteers often help sessions run more smoothly by relaying information back and forth between the physical meeting room and an associated textual chatroom.  This document provides suggestions for fulfilling the role of a chatroom relay.</t>
+      <t>During IETF meetings, individual volunteers often help sessions run more smoothly by relaying information back and forth between the physical meeting room and an associated textual chatroom (where remote participants who are listening to the audio stream can send questions or feedback to the physical room).  This document provides suggestions for fulfilling the role of a chatroom relay.</t>
     </abstract>
   </front>
 
   <middle>
 
     <section title="Introduction" anchor="intro">
-      <t>During IETF meetings, individual volunteers often help sessions run more smoothly by relaying information back and forth between the physical meeting room and an associated textual chatroom.  This document provides suggestions for fulfilling the role of a chatroom relay.</t>
+      <t>During IETF meetings, individual volunteers often help sessions run more smoothly by relaying information back and forth between the physical meeting room and an associated textual chatroom (where remote participants who are listening to the audio stream can send questions or feedback to the physical room).  This document provides suggestions for fulfilling the role of a chatroom relay.</t>
     </section>
 
     <section title="Terminology" anchor="terms">
@@ -62,12 +62,14 @@
       <t>Experience has shown that the following behaviors that make it easier to act as a chatroom relay:</t>
       <t>
         <list style='symbols'>
+          <t>Coordinate in advance with the chairs of the session to ensure that remote participants have received information about where to find the meeting materials, agenda, audio stream, etc. (e.g., this information can be sent to a working group discussion list so that remote participants do not need to ask about it on entering the chatroom).</t>
+          <t>Also ask the session chairs whether it is acceptable for you to advance to the front of the mic line with time-sensitive comments from remote participants.</t>
           <t>Seat yourself near the microphone mostly likely to be used for discussions in the physical room, so that you can more easily capture the names of people who come to the mic.</t>
           <t>If the session is large or is expected to be especially active (e.g., a controversial BoF), find a buddy who can help you by sitting at another mic, taking turns relaying information, etc.</t>
-          <t>Identify yourself in both the physical room and the chatroom.</t>
+          <t>Identify yourself in both the physical room and the chatroom so that participants in both venues know that you are a relay.</t>
           <t>Ask chatroom participants to prepend statements they would like you to relay with "RELAY" or "MIC" (the former term is less ambiguous).</t>
           <t>When relaying a question or comment from the chatroom to the physical room, say "this is X relaying for Y from the chatroom" so that people know you are not speaking for yourself.</t>
-          <t>If you don't know the name of a person at the microphone, look at their name badge, query them directly, or ask in the chatroom (usually some of the people in the physical room will also be participating in the chatroom).</t>
+          <t>It's not expected that you will know the names of everyone who comes to the mic.  If you don't know the name of a person at the microphone, look at their name badge, query them directly, or ask in the chatroom (usually some of the people in the physical room will also be participating in the chatroom).  Another good practice is to type something like "?? at the mic" in the chatroom, since it is likely that someone who is present in both the physical room and the chatroom will be able to identify the person for you.</t>
           <t>Lag happens between the time when something is said in the physical room and the time when someone provides a response in the chatroom, so take this into account when the interaction is time-sensitive (e.g., during a hum or a show of hands).</t>
         </list>
       </t>
@@ -118,6 +120,10 @@
       </reference>
 
     </references>
+
+    <section title="Acknowledgements" anchor="acks">
+      <t>Thanks to Dan Burnett, Jelte Jansen, Warren Kumari, Hugo Salgado, Greg Wood, and Dan York for their input.</t>
+    </section>
 
   </back>
 
