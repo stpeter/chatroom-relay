@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rfc SYSTEM "rfc2629.dtd">
+<?rfc compact="yes"?>
+<?rfc strict="yes"?>
+<?rfc symrefs="yes"?>
+<?rfc toc="yes"?>
+<?rfc tocdepth="3"?>
+<rfc category="info" docName="draft-saintandre-chatroom-relay-00" ipr="trust200902">
+
+  <front>
+    <title abbrev="Chatroom Relay Role">The Chatroom Relay Role at IETF Meetings</title>
+
+    <author initials="P." surname="Saint-Andre" fullname="Peter Saint-Andre">
+      <organization>&amp;yet</organization>
+      <address>
+        <email>peter@andyet.com</email>
+        <uri>https://andyet.com/</uri>
+      </address>
+    </author>
+
+    <date/>
+
+    <area>GEN</area>
+    <keyword>Internet-Draft</keyword>
+    <keyword>Jabber Scribe</keyword>
+    <keyword>meetings</keyword>
+    <abstract>
+      <t>During IETF meetings, individual volunteers often help sessions run more smoothly by relaying information back and forth between the physical meeting room and an associated textual chatroom.  This document provides suggestions for fulfilling the role of a chatroom relay.</t>
+    </abstract>
+  </front>
+
+  <middle>
+
+    <section title="Introduction" anchor="intro">
+      <t>During IETF meetings, individual volunteers often help sessions run more smoothly by relaying information back and forth between the physical meeting room and an associated textual chatroom.  This document provides suggestions for fulfilling the role of a chatroom relay.</t>
+    </section>
+
+    <section title="Terminology" anchor="terms">
+      <t>A chatroom relay is often referred to as a "Jabber scribe".  This term is misleading because nothing prevents the IETF from using a technology other than Jabber/XMPP <xref target='RFC6120'/> <xref target='XEP-0045'/> for chatrooms, and more importantly because volunteers are not expected to scribe the complete contents of the meeting into the chatroom (which would be a much more onerous task than relaying selected information back and forth between the physical room and the chatroom).</t>
+    </section>
+
+    <section title="Tasks" anchor="tasks">
+      <t>Individuals who volunteer for the role of chatroom relay usually complete the following tasks:</t>
+      <t>
+        <list style='symbols'>
+          <t>Relay questions and comments from the chatroom to the physical room.</t>
+          <t>Count the number of chatroom participants who virtually "hum", raise their hands, volunteer to provide feedback on documents, etc.</t>
+        </list>
+      </t>
+      <t>Chatroom relays often complete the following tasks, too:</t>
+      <t>
+        <list style='symbols'>
+          <t>Relay the names of people speaking in the physical room to the chatroom.</t>
+          <t>Relay the slide numbers or slide names to help chatroom participants follow along.</t>
+          <t>Provide assistance of various kinds to chatroom participants (e.g., asking about the audio delay or reporting technical problems in the physical room).</t>
+        </list>
+      </t>
+      <t>Although chatroom relays are not expected to scribe the complete contents of conversations that happen the physical room to the chatroom, they sometimes relay the gist of such conversations, especially during ad-hoc discussions for which slides are not available.</t>
+    </section>
+
+    <section title="Suggestions" anchor="suggestions">
+      <t>Experience has shown that the following behaviors that make it easier to act as a chatroom relay:</t>
+      <t>
+        <list style='symbols'>
+          <t>Seat yourself near the microphone mostly likely to be used for discussions in the physical room, so that you can more easily capture the names of people who come to the mic.</t>
+          <t>If the session is large or is expected to be especially active (e.g., a controversial BoF), find a buddy who can help you by sitting at another mic, taking turns relaying information, etc.</t>
+          <t>Identify yourself in both the physical room and the chatroom.</t>
+          <t>Ask chatroom participants to prepend statements they would like you to relay with "RELAY" or "MIC" (the former term is less ambiguous).</t>
+          <t>When relaying a question or comment from the chatroom to the physical room, say "this is X relaying for Y from the chatroom" so that people know you are not speaking for yourself.</t>
+          <t>If you don't know the name of a person at the microphone, look at their name badge, query them directly, or ask in the chatroom (usually some of the people in the physical room will also be participating in the chatroom).</t>
+          <t>Lag happens between the time when something is said in the physical room and the time when someone provides a response in the chatroom, so take this into account when the interaction is time-sensitive (e.g., during a hum or a show of hands).</t>
+        </list>
+      </t>
+    </section>
+
+    <section title="IANA Considerations" anchor="iana">
+      <t>This document requests no actions from the IANA.</t>
+    </section>
+
+    <section title="Security Considerations" anchor="security">
+      <t>Although XMPP multi-user chat rooms <xref target='XEP-0045'/> can be configured to lock down nicknames and require registration with the chatroom in order to join, at the time of this writing IETF chatrooms are not so configured.  This introduces the possibility of social engineering attacks on discussions held in IETF chatrooms.  It can be helpful for chatroom relays to be aware of this possibility.</t>
+    </section>
+
+  </middle>
+
+  <back>
+
+    <references title="References">
+
+      <reference anchor="RFC6120">
+        <front>
+          <title>Extensible Messaging and Presence Protocol (XMPP): Core</title>
+          <author initials="P." surname="Saint-Andre" fullname="Peter Saint-Andre">
+            <organization>Cisco</organization>
+            <address>
+              <email>psaintan@cisco.com</email>
+            </address>
+          </author>
+          <date month="March" year="2011"/>
+        </front>
+        <seriesInfo name="RFC" value="6120"/>
+        <format type="TXT" target="http://tools.ietf.org/rfc/rfc6120.txt"/>
+      </reference>
+
+      <reference anchor="XEP-0045">
+        <front>
+          <title>Multi-User Chat</title>
+          <author initials="P." surname="Saint-Andre" fullname="Peter Saint-Andre">
+            <organization/>
+            <address>
+              <email>stpeter@jabber.org</email>
+            </address>
+          </author>
+          <date day="08" month="February" year="2012"/>
+        </front>
+        <seriesInfo name="XSF XEP" value="0045"/>
+        <format type="HTML" target="http://xmpp.org/extensions/xep-0045.html"/>
+      </reference>
+
+    </references>
+
+  </back>
+
+</rfc>
