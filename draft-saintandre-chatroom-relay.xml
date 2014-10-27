@@ -41,17 +41,24 @@
   <middle>
 
     <section title="Introduction" anchor="intro">
-      <t>During IETF meetings, individual volunteers often help sessions run more smoothly by relaying information back and forth between the physical meeting room and an associated textual chatroom. This role is critical as it is currently the only "real-time" way for a remote attendee to provide feedback or comments back into most IETF working groups. While there are multiple ways that a remote attendee can listen and follow along (ex. audio streams, MeetEcho), the chatroom provides a method of returning feedback to the physical meeting.</t>
-        <t>This document provides suggestions for fulfilling the role of a chatroom relay.</t>
-      
-       <t>Participants in the chatroom are typically remote attendees who are listening to the audio stream and may wish to send questions or feedback to the physical room. Remote attendees typically are able to listen to the audio streams or watch/listen through a MeetEcho session.</t>
-       <t>Chatroom participants may also be IETF meeting attendees who are in another simultaneous working group session in a different physical room.  They are often monitoring the chatroom session to find out when a particular draft is being discussed or to just observe what is being discussed in the chatroom. Typically they are not able to listen to the audio stream and sometimes ask for a higher level of commentary so that they can know when they might need to come over to the session's physical room.</t>
-      
-      <t>As all chatroom sessions are logged during IETF meetings and the logs are publicly available, the logs can be a very useful history of what occurs during a meeting. For that reason any additional information that can be supplied to remote participants can  be very helpful.</t>
+      <t>During IETF meetings, individual volunteers often help sessions run more smoothly by relaying information back and forth between the physical meeting room and an associated textual chatroom. This role is critical as it is currently the only "real-time" way for a remote attendee to provide feedback or comments back into most IETF meeting sessions (whether for an IETF working group, IRTF research group, or IETF "birds of a feather" or "BoF" session). Although there are multiple ways that a remote attendee can listen and follow along, the chatroom provides a method of returning feedback to the physical meeting.</t>
+      <t>This document provides suggestions for fulfilling the role of a chatroom relay.</t>
     </section>
 
     <section title="Terminology" anchor="terms">
-      <t>A chatroom relay is often referred to as a "Jabber scribe".  This term is misleading because nothing prevents the IETF from using a technology other than Jabber/XMPP <xref target='RFC6120'/> <xref target='XEP-0045'/> for chatrooms, and more importantly because volunteers are not expected to scribe the complete contents of the meeting into the chatroom (which would be a much more onerous task than relaying selected information back and forth between the physical room and the chatroom).</t>
+      <t>A chatroom relay is often referred to as a "Jabber scribe".  This term is misleading because nothing prevents the IETF from using a technology other than Jabber/XMPP <xref target='RFC6120'/> <xref target='XEP-0045'/> for chatrooms (say, IRC or an integrated collaboration environment), and more importantly because volunteers are not expected to scribe the complete contents of the meeting into the chatroom (which would be a much more onerous task than relaying selected information back and forth between the physical room and the chatroom).  Use of the term "scribe" might discourage people from volunteering to serve in the role.</t>
+    </section>
+
+    <section title="Know Your Users" anchor="users">
+      <t>The participants in a chatroom typically fall into three categories:</t>
+      <t>
+        <list style='symbols'>
+          <t>Remote attendees who are listening to the audio stream or in some cases following the proceedings using a real-collaboration system (currently exemplified by the MeetEcho service). These participants might wish to send questions or feedback to the physical room.</t>
+          <t>IETF meeting attendees who are in another simultaneous session in a different physical room.  These participants are often monitoring the chatroom session to find out when a particular topic is being discussed or to observe what is being discussed in the chatroom. Typically they are not able to listen to the audio stream and sometimes they ask for a higher level of commentary so that they can know when they might need to change locations to participate in the session's physical room.</t>
+          <t>IETF meeting attendees who are in the same session.  These participants like to follow the discussions in the physical room and the chatroom at the same time.  They can also provide some assistance to chatroom relays.</t>
+        </list>
+      </t>
+      <t>Because all chatroom sessions are logged during IETF meetings and the logs are publicly available, the logs can be a very useful history of what occurs during a meeting. For that reason any additional information that can be supplied to remote participants can be very helpful.</t>
     </section>
 
     <section title="Primary Tasks" anchor="primarytasks">
@@ -59,69 +66,70 @@
       <t>
         <list style='symbols'>
           <t>Relay questions and comments from the chatroom to the physical room. This typically involves going to the microphone to relay the comment from the remote participant.</t>
-          <t>Count the number of chatroom participants who virtually "hum", raise their hands, volunteer to provide feedback on documents, etc.</t>
-          <t>Relay to the remote participants any logistical or procedural issues related to the meeting. For instance, if there is a problem with the audio streaming or a delay in getting the meeting started.</t>
+          <t>Count the number of chatroom participants who virtually "hum", raise their hands, volunteer to provide feedback on documents, etc., and feed that information back to the physical room.</t>
+          <t>Relay information about hums and similar interactions from the physical room to the chatroom (preferably after receiving a "reading" from the session chairs).</t>
         </list>
       </t>
-      <t>It is the convention in most working groups that the chatroom relay has the ability to go to the front of the microphone line to relay the question(s) from remote participants.  Some chatroom relays choose to exercise that ability while others may choose to wait in line along with the participants in the physical meeting rooom.</t>
+      <t>It is the convention in most sessions that the chatroom relay has the privilege to go to the front of the microphone line to relay the question(s) from remote participants.  Some chatroom relays choose to exercise that privilege while others choose to wait in line along with the participants in the physical meeting rooom.</t>
     </section>
 
     <section title="Additional Tasks" anchor="addltasks">
 
-      <t>Additionally some chatroom relays often complete the minimum of the following tasks:</t>
+      <t>Additionally some chatroom relays often complete the following tasks:</t>
       <t>
         <list style='symbols'>
           <t>Relay the names of people speaking in the physical room to the chatroom.</t>
           <t>Relay the slide numbers or slide names to help chatroom participants follow along.</t>
-          <t>Provide assistance of various kinds to chatroom participants (e.g., asking about the audio delay or reporting technical problems in the physical room).</t>
-          <t>Provide the links to the current set of slides and the document being discussed so that remote participants can easily follow along.</t>
+          <t>Query remote participants about audio streaming quality, and relay such information to the session chairs.</t>
+          <t>Relay to the chatroom participants any logistical or procedural issues related to the meeting (for instance, known technical glitches at the physical meeting or delays in starting the session).</t>
+          <t>Provide links to the current set of slides and the document being discussed so that chatroom participants can easily follow along.</t>
         </list>
       </t>
-      <t>Although chatroom relays are not expected to scribe the complete contents of conversations that happen the physical room to the chatroom, they sometimes relay the gist of such conversations, especially during ad-hoc discussions for which slides are not available.</t>
+      <t>Although chatroom relays are not generally expected to scribe the complete contents of conversations that happen the physical room to the chatroom, they sometimes relay the gist of such conversations, especially during ad-hoc discussions for which slides are not available.  (By prior arrangement between the session chairs and the chatroom relay, more detailed scribing might be expected for particular sessions.)</t>
 
     </section>
     
     <section title="Suggestions" anchor="suggestions">
       <t>Experience has shown that the following behaviors make it easier to act as a chatroom relay.</t>
+      <t>If you have volunteered before the session:
+        <list style='symbols'>
+          <t>Coordinate with the chairs to ensure that remote participants have received information about where to find the meeting materials, agenda, audio stream, etc. (e.g., this information can be sent to a working group discussion list so that remote participants do not need to ask about it on entering the chatroom).</t>
+          <t>Coordinate with the chairs to see if they have any special expectations for the chatroom relay (e.g., some chairs might want you to actually "scribe" more detailed information about the session proceedings into the chatroom).</t>
+          <t>Ask the session chairs whether it is acceptable for you to advance to the front of the mic line with time-sensitive comments from remote participants.</t>
+        </list>
+      </t>
       <t>As you are getting settled and ready for the meeting to start:</t>
       <t>
         <list style='symbols'>
-          <t>Coordinate in advance with the chairs of the session to ensure that remote participants have received information about where to find the meeting materials, agenda, audio stream, etc. (e.g., this information can be sent to a working group discussion list so that remote participants do not need to ask about it on entering the chatroom).</t>
-          <t>Also ask the session chairs whether it is acceptable for you to advance to the front of the mic line with time-sensitive comments from remote participants.</t>
-          <t>Seat yourself near the microphone mostly likely to be used for discussions in the physical room, so that you can more easily capture the names of people who come to the mic.</t>
-          <t>Choose a seat near the end of a row or in some location where you can easily get up out of your seat to go to the microphone.</t>
-          <t>It may be helpful to open several browser windows or tabs for:
+          <t>Seat yourself near the microphone most likely to be used for discussions in the physical room, so that you can more easily capture the names of people who come to the mic.  Typically this will be a seat near the end of a row or in some location where you can easily get up out of your seat to go to the microphone.</t>
+          <t>It can be helpful to open several browser windows or tabs for:
           <list style='symbols'>
-            <t>the agenda page for the specific working group meeting</t>
+            <t>the agenda page for the session</t>
             <t>the materials page so that you can relay links to slides if necessary</t>
-            <t>the documents page for the working group in case you want easy access to documents mentioned but not in the agenda page</t>
+            <t>the documents page for the working group or research group (or BoF wiki page) in case you want easy access to documents mentioned but not in the agenda page</t>
             <t>the meeting registration system page (see below)</t>
            </list>
            </t>
-          <t>Determine if the session will be streamed via MeetEcho. If so, the MeetEcho system will be automatically posting the slide names into the chatroom and this is one less task you need to be concerned about.</t>
+          <t>Determine if the session will be streamed via a real-collaboration system such as MeetEcho. If so, that system might automatically post the slide names into the chatroom and this is one less task you need to be concerned about.</t>
           <t>If the session is large or is expected to be especially active (e.g., a controversial BoF), find an assistant who can help you by sitting at another mic, taking turns relaying information, etc.</t>
         </list>
-      Identifying one or more assistants is very useful particularly if you want to go up to the microphone to speak as an individual or if you need to take a break or a phone call or something similar.</t>
+      Identifying one or more assistants is very useful particularly if you want to go up to the microphone to speak as an individual or if you need to take a break or step out of the physical room at some point.</t>
       
-      
-      <t>During the actual meeting:
+      <t>During the session:
         <list style='symbols'>
           <t>Identify yourself in both the physical room and the chatroom so that participants in both venues know that you are a relay.</t>
-          <t>Ask chatroom participants what level of information they need relayed into the chatroom.  For example if all chatroom participants are listening via audio or MeetEcho they may need very little information relayed from the room.</t>
+          <t>Ask chatroom participants what level of information they need relayed into the chatroom.  For example if all chatroom participants are listening via audio or a system like MeetEcho they might need very little information relayed from the room.</t>
           <t>Ask chatroom participants to prepend statements they would like you to relay with "RELAY" or "MIC" (the former term is less ambiguous).</t>
           <t>When relaying a question or comment from the chatroom to the physical room, say "this is X relaying for Y from the chatroom" so that people know you are not speaking for yourself.</t>
-          <t>It's not expected that you will know the names of everyone who comes to the mic.  If you don't know the name of a person at the microphone, look at their name badge, query them directly, or ask in the chatroom (usually some of the people in the physical room will also be participating in the chatroom).</t>
-          <t>Another good practice if you do not know someone's name is to type something like "?? at the mic" in the chatroom, since it is likely that someone who is present in both the physical room and the chatroom will be able to identify the person for you.</t>
-          <t>One tool you can use to quickly look up the names of attendees is the meeting registration system.  This is typically found at the URL:
-          <list style='symbols'>
-            <t>https://www.ietf.org/registration/&lt;meeting&gt;/attendance.py</t>
-           </list>
-           as in the example:
-           <list style='symbols'>
-            <t>https://www.ietf.org/registration/ietf90/attendance.py</t>
-           </list>
-          You can quickly look up a name using this system if you are in doubt.</t>
-          <t>Lag happens between the time when something is said in the physical room and the time when someone provides a response in the chatroom, so take this into account when the interaction is time-sensitive (e.g., during a hum or a show of hands).</t>
+          <t>It's not expected that you will know the names of everyone who comes to the mic.  If you don't know the name of a person at the microphone, you have several options:
+            <list style='symbols'>
+              <t>look at their name badge if you are seated nearby</t>
+              <t>query them directly (calling out "state your name, please" is acceptable)</t>
+              <t>ask in the chatroom or type something like "?? at the mic", since it is likely that someone who is present in both the physical room and the chatroom will be able to identify the person for you</t>
+              <t>look up the name of the attendee in the meeting registration system (this is typically found at a URL of the form "https://www.ietf.org/registration/&lt;meeting&gt;/attendance.py", such as "https://www.ietf.org/registration/ietf90/attendance.py"); you can quickly look up a name using this system if you are in doubt.</t>
+            </list>
+          </t>
+          <t>Be aware that lag happens between the time when something is said in the physical room and the time when someone provides a response in the chatroom, and take this into account when the interaction is time-sensitive (e.g., during a hum or a show of hands).</t>
         </list>
       </t>
     </section>
@@ -132,6 +140,7 @@
 
     <section title="Security Considerations" anchor="security">
       <t>Although XMPP multi-user chat rooms <xref target='XEP-0045'/> can be configured to lock down nicknames and require registration with the chatroom in order to join, at the time of this writing IETF chatrooms are not so configured.  This introduces the possibility of social engineering attacks on discussions held in IETF chatrooms.  It can be helpful for chatroom relays to be aware of this possibility.</t>
+      <t>Denial of service (DoS) attacks of various kinds are possible, e.g., flooding a chatroom with unwanted or automated traffic.</t>
     </section>
 
   </middle>
@@ -173,7 +182,7 @@
     </references>
 
     <section title="Acknowledgements" anchor="acks">
-      <t>Thanks to Dan Burnett, Jelte Jansen, Warren Kumari, Hugo Salgado, and Greg Wood for their input. Thoughts and ideas sent by Wes George and Janet Gunn to an IETF 87 mailing list were incorporated into this document.</t>
+      <t>Thanks to Dan Burnett, Jelte Jansen, Warren Kumari, Hugo Salgado, Yaakov Stein, and Greg Wood for their input. Thoughts and ideas sent by Wes George and Janet Gunn to an IETF 87 mailing list were incorporated into this document.</t>
     </section>
 
   </back>
