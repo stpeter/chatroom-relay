@@ -25,7 +25,8 @@
     <keyword>Jabber Scribe</keyword>
     <keyword>meetings</keyword>
     <abstract>
-      <t>During IETF meetings, individual volunteers often help sessions run more smoothly by relaying information back and forth between the physical meeting room and an associated textual chatroom (where remote participants who are listening to the audio stream can send questions or feedback to the physical room).  This document provides suggestions for fulfilling the role of a chatroom relay.</t>
+      <t>During IETF meetings, individual volunteers often help sessions run more smoothly by relaying information back and forth between the physical meeting room and an associated textual chatroom.  Participants in the chatroom are typically remote attendees who are listening to the audio stream and may wish to send questions or feedback to the physical room.  Chatroom participants may also be IETF meeting attendees who are in another simultaneous working group session and are monitoring the session to find out when a particular draft is being discussed or to just monitor what is being discussed in the chatroom.</t>
+      <t>This document provides suggestions for fulfilling the role of a chatroom relay.</t>
     </abstract>
   </front>
 
