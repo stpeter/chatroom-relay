@@ -130,6 +130,8 @@
             </list>
           </t>
           <t>Be aware that lag happens between the time when something is said in the physical room and the time when someone provides a response in the chatroom, and take this into account when the interaction is time-sensitive (e.g., during a hum or a show of hands).</t>
+          <t>Because of the potential lag time, ask remote participants who are doing a hum to indicate what choice their hum is for rather than just typing "hum" into the chat room. For example, "hum yes" or "hum for option 1". You can then more easily tally the results and report them to the physical room.</t>
+          <t>If you have a chance to do so, you may want to measure the lag time between when something is said in the room and when it is heard on the audio stream and then let the remote participants know the length of the delay. This could be accomplished by either listening to the audio stream yourself or working with a remote participant who you know is on the audio stream.</t>
         </list>
       </t>
     </section>
@@ -182,7 +184,7 @@
     </references>
 
     <section title="Acknowledgements" anchor="acks">
-      <t>Thanks to Dan Burnett, Jelte Jansen, Warren Kumari, Hugo Salgado, Yaakov Stein, and Greg Wood for their input. Thoughts and ideas sent by Wes George and Janet Gunn to an IETF 87 mailing list were incorporated into this document.</t>
+      <t>Thanks to Dan Burnett, Jelte Jansen, Warren Kumari, Jonathan Lennox, Alexandre Petrescu, Hugo Salgado, Yaakov Stein, and Greg Wood for their input. Thoughts and ideas sent by Wes George and Janet Gunn to an IETF 87 mailing list were incorporated into this document.</t>
     </section>
 
   </back>
