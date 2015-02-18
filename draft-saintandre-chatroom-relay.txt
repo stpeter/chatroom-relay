@@ -253,10 +253,9 @@ Internet-Draft             Jabber Scribe Role              February 2015
 
       *  the meeting registration system page (see below)
 
-   o  Determine if the session will be streamed via a real-collaboration
-      system such as MeetEcho.  If so, that system might automatically
-      post the slide names into the chatroom and this is one less task
-      you need to be concerned about.
+   o  Determine if the session will be streamed via a realtime
+      collaboration system such as MeetEcho.  If so, you can also point
+      remote participants to that system for interaction.
 
    o  If the session is large or is expected to be especially active
       (e.g., a controversial BoF), find an assistant who can help you by
@@ -273,6 +272,7 @@ Internet-Draft             Jabber Scribe Role              February 2015
    o  Identify yourself in both the physical room and the chatroom so
       that participants in both venues know that you are a Jabber
       scribe.
+
 
 
 
