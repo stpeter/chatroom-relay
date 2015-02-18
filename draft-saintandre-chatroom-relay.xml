@@ -111,6 +111,7 @@
                 <t>the meeting registration system page (see below)</t>
               </list>
             </t>
+            <t>It can also be helpful to run two separate Jabber clients connected to two separate Jabber servers, to prevent delays if one of the servers experiences an outage during the session.</t>
             <t>Determine if the session will be streamed via a realtime collaboration system such as MeetEcho. If so, you can also point remote participants to that system for interaction.</t>
             <t>If the session is large or is expected to be especially active (e.g., a controversial BoF), find an assistant who can help you by sitting at another mic, taking turns relaying information, etc.</t>
           </list>
