@@ -10,7 +10,7 @@ Expires: August 22, 2015                                Internet Society
 
 
                 The Jabber Scribe Role at IETF Meetings
-                   draft-saintandre-chatroom-relay-03
+                   draft-saintandre-jabber-scribe-00
 
 Abstract
 
