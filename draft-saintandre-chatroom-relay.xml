@@ -34,7 +34,7 @@
     <keyword>IETF meetings</keyword>
 
     <abstract>
-      <t>During IETF meetings, individual volunteers often help sessions run more smoothly by acting as a "Jabber scribe", i.e., relaying information back and forth between the physical meeting room and an associated textual chatroom (where remote participants can send questions or feedback to the physical room).  This document provides suggestions for fulfilling the role of a Jabber scribe at IETF meetings.</t>
+      <t>During IETF meetings, individual volunteers often help sessions run more smoothly by relaying information back and forth between the physical meeting room and an associated textual chatroom (where remote participants can send questions or feedback to the physical room).  This document provides suggestions for fulfilling this "Jabber scribe" role at IETF meetings.</t>
     </abstract>
   </front>
 
@@ -43,7 +43,7 @@
     <section title="Introduction" anchor="intro">
       <t>During IETF meetings, individual volunteers often help sessions run more smoothly by relaying information back and forth between the physical meeting room and an associated textual chatroom.  Because these chatrooms are currently implemented using Jabber/XMPP technologies (see <xref target='RFC6120'/> and <xref target='XEP-0045'/>) the role is commonly referred to as a "Jabber scribe".</t>
       <t>This role is important because it is the primary "real-time" way for a remote attendee to provide feedback or comments back into most IETF meeting sessions (whether for an IETF working group, IRTF research group, or IETF "birds of a feather" session). Although there are multiple ways that a remote attendee can listen and follow along, the chatroom provides a method of returning feedback to the physical meeting.</t>
-      <t>This document provides suggestions for fulfilling the role of a Jabber scribe at IETF meetings.</t>
+      <t>This document provides suggestions for fulfilling the role of a Jabber scribe at IETF meetings, based on the authors' personal experience as well as input from other frequent Jabber scribes.</t>
     </section>
 
     <section title="Know Your Users" anchor="users">
@@ -88,47 +88,67 @@
     
     <section title="Suggestions" anchor="suggestions">
       <t>Experience has shown that the following behaviors make it easier to act as a Jabber scribe.</t>
-      <t>If you have volunteered before the session:
-        <list style='symbols'>
-          <t>Coordinate with the chairs to ensure that remote participants have received information about where to find the meeting materials, agenda, audio stream, etc. (e.g., this information can be sent to a working group discussion list so that remote participants do not need to ask about it on entering the chatroom).</t>
-          <t>Coordinate with the chairs to see if they have any special expectations for the Jabber scribe (e.g., some chairs might want you to actually "scribe" more detailed information about the session proceedings into the chatroom).</t>
-          <t>Ask the session chairs whether it is acceptable for you to advance to the front of the mic line with time-sensitive comments from remote participants.</t>
-        </list>
-      </t>
-      <t>As you are getting settled and ready for the meeting to start:</t>
-      <t>
-        <list style='symbols'>
-          <t>Seat yourself near the microphone most likely to be used for discussions in the physical room, so that you can more easily capture the names of people who come to the mic.  Typically this will be a seat near the end of a row or in some location where you can easily get up out of your seat to go to the microphone.</t>
-          <t>It can be helpful to open several browser windows or tabs for:
+      <section title="Before the Session" anchor="suggestions-before">
+        <t>If you have volunteered before the session:
           <list style='symbols'>
-            <t>the agenda page for the session</t>
-            <t>the materials page so that you can relay links to slides if necessary</t>
-            <t>the documents page for the working group or research group (or BoF wiki page) in case you want easy access to documents mentioned but not in the agenda page</t>
-            <t>the meeting registration system page (see below)</t>
-           </list>
-           </t>
-          <t>Determine if the session will be streamed via a real-collaboration system such as MeetEcho. If so, that system might automatically post the slide names into the chatroom and this is one less task you need to be concerned about.</t>
-          <t>If the session is large or is expected to be especially active (e.g., a controversial BoF), find an assistant who can help you by sitting at another mic, taking turns relaying information, etc.</t>
-        </list>
-      Identifying one or more assistants is very useful particularly if you want to go up to the microphone to speak as an individual or if you need to take a break or step out of the physical room at some point.</t>
-      
-      <t>During the session:
+            <t>Coordinate with the chairs to ensure that remote participants have received information about where to find the meeting materials, agenda, audio stream, etc. (e.g., this information can be sent to a working group discussion list so that remote participants do not need to ask about it on entering the chatroom).</t>
+            <t>Coordinate with the chairs to see if they have any special expectations for the Jabber scribe (e.g., some chairs might want you to actually "scribe" more detailed information about the session proceedings into the chatroom).</t>
+            <t>Ask the session chairs whether it is acceptable for you to advance to the front of the mic line with time-sensitive comments from remote participants.</t>
+          </list>
+        </t>
+      </section>
+
+      <section title="As the Session Is Starting" anchor="suggestions-start">
+        <t>As you are getting settled and ready for the meeting to start:</t>
+        <t>
+          <list style='symbols'>
+            <t>Seat yourself near the microphone most likely to be used for discussions in the physical room, so that you can more easily capture the names of people who come to the mic.  Typically this will be a seat near the end of a row or in some location where you can easily get up out of your seat to go to the microphone.</t>
+            <t>It can be helpful to open several browser windows or tabs for:
+              <list style='symbols'>
+                <t>the agenda page for the session</t>
+                <t>the materials page so that you can relay links to slides if necessary</t>
+                <t>the documents page for the working group or research group (or BoF wiki page) in case you want easy access to documents mentioned but not in the agenda page</t>
+                <t>the meeting registration system page (see below)</t>
+              </list>
+            </t>
+            <t>Determine if the session will be streamed via a real-collaboration system such as MeetEcho. If so, that system might automatically post the slide names into the chatroom and this is one less task you need to be concerned about.</t>
+            <t>If the session is large or is expected to be especially active (e.g., a controversial BoF), find an assistant who can help you by sitting at another mic, taking turns relaying information, etc.</t>
+          </list>
+        </t>
+        <t>Identifying one or more assistants is very useful particularly if you want to go up to the microphone to speak as an individual or if you need to take a break or step out of the physical room at some point.</t>
+      </section>
+
+      <section title="During the Session" anchor="suggestions-during">
+        <t>As you perform your role during the session:</t>
+        <t>
+          <list style='symbols'>
+            <t>Identify yourself in both the physical room and the chatroom so that participants in both venues know that you are a Jabber scribe.</t>
+            <t>Ask chatroom participants what level of information they need relayed into the chatroom.  For example if all chatroom participants are listening via audio or a system like MeetEcho they might need very little information relayed from the room.</t>
+            <t>Ask chatroom participants to prepend statements they would like you to relay with "RELAY" or "MIC" (the former term is less ambiguous).</t>
+            <t>When relaying a question or comment from the chatroom to the physical room, say "this is X relaying for Y from the chatroom" so that people know you are not speaking for yourself.</t>
+            <t>It's not expected that you will know the names of everyone who comes to the mic.  If you don't know the name of a person at the microphone, you have several options:
+              <list style='symbols'>
+                <t>look at their name badge if you are seated nearby</t>
+                <t>query them directly (calling out "state your name, please" is acceptable)</t>
+                <t>ask in the chatroom or type something like "?? at the mic", since it is likely that someone who is present in both the physical room and the chatroom will be able to identify the person for you</t>
+                <t>look up the name of the attendee in the meeting registration system (this is typically found at a URL of the form "https://www.ietf.org/registration/&lt;meeting&gt;/attendance.py", such as "https://www.ietf.org/registration/ietf90/attendance.py"); you can quickly look up a name using this system if you are in doubt.</t>
+              </list>
+            </t>
+            <t>Be aware that lag happens between the time when something is said in the physical room and the time when someone provides a response in the chatroom, and take this into account when the interaction is time-sensitive (e.g., during a hum or a show of hands).</t>
+            <t>Because of the potential lag time, ask remote participants who are doing a hum to indicate what choice their hum is for rather than just typing "hum" into the chat room. For example, "hum yes" or "hum for option 1". You can then more easily tally the results and report them to the physical room.</t>
+            <t>If you have a chance to do so, you may want to measure the lag time between when something is said in the room and when it is heard on the audio stream and then let the remote participants know the length of the delay. This could be accomplished by either listening to the audio stream yourself or working with a remote participant who you know is on the audio stream.</t>
+          </list>
+        </t>
+      </section>
+    </section>
+
+    <section title="Reporting Problems" anchor="reporting">
+      <t>If you need to report a problem during an IETF meeting (e.g., problems with media streaming), at the time of this writing there are several ways to do so:
         <list style='symbols'>
-          <t>Identify yourself in both the physical room and the chatroom so that participants in both venues know that you are a Jabber scribe.</t>
-          <t>Ask chatroom participants what level of information they need relayed into the chatroom.  For example if all chatroom participants are listening via audio or a system like MeetEcho they might need very little information relayed from the room.</t>
-          <t>Ask chatroom participants to prepend statements they would like you to relay with "RELAY" or "MIC" (the former term is less ambiguous).</t>
-          <t>When relaying a question or comment from the chatroom to the physical room, say "this is X relaying for Y from the chatroom" so that people know you are not speaking for yourself.</t>
-          <t>It's not expected that you will know the names of everyone who comes to the mic.  If you don't know the name of a person at the microphone, you have several options:
-            <list style='symbols'>
-              <t>look at their name badge if you are seated nearby</t>
-              <t>query them directly (calling out "state your name, please" is acceptable)</t>
-              <t>ask in the chatroom or type something like "?? at the mic", since it is likely that someone who is present in both the physical room and the chatroom will be able to identify the person for you</t>
-              <t>look up the name of the attendee in the meeting registration system (this is typically found at a URL of the form "https://www.ietf.org/registration/&lt;meeting&gt;/attendance.py", such as "https://www.ietf.org/registration/ietf90/attendance.py"); you can quickly look up a name using this system if you are in doubt.</t>
-            </list>
-          </t>
-          <t>Be aware that lag happens between the time when something is said in the physical room and the time when someone provides a response in the chatroom, and take this into account when the interaction is time-sensitive (e.g., during a hum or a show of hands).</t>
-          <t>Because of the potential lag time, ask remote participants who are doing a hum to indicate what choice their hum is for rather than just typing "hum" into the chat room. For example, "hum yes" or "hum for option 1". You can then more easily tally the results and report them to the physical room.</t>
-          <t>If you have a chance to do so, you may want to measure the lag time between when something is said in the room and when it is heard on the audio stream and then let the remote participants know the length of the delay. This could be accomplished by either listening to the audio stream yourself or working with a remote participant who you know is on the audio stream.</t>
+          <t>For network and media streaming issues, send email to tickets@meeting.ietf.org.</t>
+          <t>For all other issues, send email to the "Meeting Trouble Desk" via mtd@ietf.org.</t>
+          <t>To chat with members of the Network Operations Center (NOC), join the noc@jabber.ietf.org chatroom.</t>
+          <t>To report a problem in person, visit the help desk in the Terminal Room.</t>
         </list>
       </t>
     </section>
