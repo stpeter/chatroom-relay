@@ -106,7 +106,7 @@
             <t>It can be helpful to open several browser windows or tabs for:
               <list style='symbols'>
                 <t>the agenda page for the session</t>
-                <t>the materials page so that you can relay links to slides if necessary</t>
+                <t>the materials page so that you can relay links to slides if necessary (at the time of this writing, the URLs are of the form "https://datatracker.ietf.org/meeting/91/materials.html#wg-name")</t>
                 <t>the documents page for the working group or research group (or BoF wiki page) in case you want easy access to documents mentioned but not in the agenda page</t>
                 <t>the meeting registration system page (see below)</t>
               </list>
