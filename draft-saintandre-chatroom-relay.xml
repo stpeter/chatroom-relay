@@ -42,17 +42,23 @@
 
     <section title="Introduction" anchor="intro">
       <t>During IETF meetings, individual volunteers often help sessions run more smoothly by relaying information back and forth between the physical meeting room and an associated textual chatroom.  Because these chatrooms are currently implemented using Jabber/XMPP technologies (see <xref target='RFC6120'/> and <xref target='XEP-0045'/>) the role is commonly referred to as a "Jabber scribe".</t>
-      <t>This role is important because it is the primary "real-time" way for a remote attendee to provide feedback or comments back into most IETF meeting sessions (whether for an IETF working group, IRTF research group, or IETF "birds of a feather" session). Although there are multiple ways that a remote attendee can listen and follow along, the chatroom provides a method of returning feedback to the physical meeting.</t>
-      <t>This document provides suggestions for fulfilling the role of a Jabber scribe at IETF meetings, based on the authors' personal experience as well as input from other frequent Jabber scribes.</t>
+      <t>This role is important because it is the primary way for a remote attendee to provide feedback or comments back into most IETF meeting sessions in something close to real time. Although there are multiple ways that a remote attendee can listen and follow along, the chatroom provides a method of returning feedback to the physical meeting.  These methods hold true for IETF working group sessions, IRTF research group sessions, IETF "birds of a feather" (BoF) sessions, and similar sessions at IETF meetings.</t>
+      <t>This document provides suggestions for fulfilling the role of a Jabber scribe at IETF meetings, based on the authors' personal experience as well as input from other individuals who frequently volunteer as Jabber scribes.</t>
     </section>
 
     <section title="Know Your Users" anchor="users">
-      <t>The participants in a chatroom typically fall into three categories:</t>
+      <t>The participants in a chatroom typically fall into three categories, labelled here for ease of understanding:</t>
       <t>
         <list style='symbols'>
-          <t>Remote attendees who are listening to the audio stream or in some cases following the proceedings using a real-collaboration system (currently exemplified by the MeetEcho service). These participants might wish to send questions or feedback to the physical room.</t>
-          <t>IETF meeting attendees who are in another simultaneous session in a different physical room.  These participants are often monitoring the chatroom session to find out when a particular topic is being discussed or to observe what is being discussed in the chatroom. Typically they are not able to listen to the audio stream and sometimes they ask for a higher level of commentary so that they can know when they might need to change locations to participate in the session's physical room.</t>
-          <t>IETF meeting attendees who are in the same session.  These participants like to follow the discussions in the physical room and the chatroom at the same time.  They can also provide some assistance to Jabber scribes.</t>
+          <t>Remote Participants
+          <vspace blankLines='1'/>
+          Remote attendees who are listening to the audio stream or in some cases following the proceedings using a real-collaboration system (currently exemplified by the MeetEcho service). These participants might wish to send questions or feedback to the physical room.</t>
+          <t>Observers
+          <vspace blankLines='1'/>
+          IETF meeting attendees who are in another simultaneous session in a different physical room.  These participants are often monitoring the chatroom session to find out when a particular topic is being discussed or to observe what is being discussed in the chatroom. Typically they are not able to listen to the audio stream and sometimes they ask for a higher level of commentary so that they can know when they might need to change locations to participate in the session's physical room.</t>
+          <t>Local Participants
+          <vspace blankLines='1'/>
+          IETF meeting attendees who are in the same session.  Sometimes these participants like to follow the discussions in the physical room and the chatroom at the same time.  They can also provide some assistance to Jabber scribes.</t>
         </list>
       </t>
       <t>Because all chatroom sessions are logged during IETF meetings and the logs are publicly available, the logs can be a very useful history of what occurs during a meeting. For that reason any additional information that can be supplied to remote participants can be very helpful.</t>
@@ -202,7 +208,7 @@
     </references>
 
     <section title="Acknowledgements" anchor="acks">
-      <t>Thanks to Dan Burnett, Jelte Jansen, Warren Kumari, Jonathan Lennox, Alexandre Petrescu, Hugo Salgado, Yaakov Stein, and Greg Wood for their input. Thoughts and ideas sent by Wes George and Janet Gunn to an IETF 87 mailing list were incorporated into this document.</t>
+      <t>Thanks to Dan Burnett, Dave Crocker, Jelte Jansen, Warren Kumari, Jonathan Lennox, Alexandre Petrescu, Hugo Salgado, Yaakov Stein, and Greg Wood for their input. Thoughts and ideas sent by Wes George and Janet Gunn to an IETF 87 mailing list were also incorporated into this document.</t>
     </section>
 
   </back>

@@ -87,25 +87,25 @@ Table of Contents
    technologies (see [RFC6120] and [XEP-0045]) the role is commonly
    referred to as a "Jabber scribe".
 
-   This role is important because it is the primary "real-time" way for
-   a remote attendee to provide feedback or comments back into most IETF
-   meeting sessions (whether for an IETF working group, IRTF research
-   group, or IETF "birds of a feather" session).  Although there are
+   This role is important because it is the primary way for a remote
+   attendee to provide feedback or comments back into most IETF meeting
+   sessions in something close to real time.  Although there are
    multiple ways that a remote attendee can listen and follow along, the
    chatroom provides a method of returning feedback to the physical
-   meeting.
+   meeting.  These methods hold true for IETF working group sessions,
+   IRTF research group sessions, IETF "birds of a feather" (BoF)
+   sessions, and similar sessions at IETF meetings.
 
    This document provides suggestions for fulfilling the role of a
    Jabber scribe at IETF meetings, based on the authors' personal
-   experience as well as input from other frequent Jabber scribes.
+   experience as well as input from other individuals who frequently
+   volunteer as Jabber scribes.
 
 2.  Know Your Users
 
-   The participants in a chatroom typically fall into three categories:
+   The participants in a chatroom typically fall into three categories,
+   labelled here for ease of understanding:
 
-   o  Remote attendees who are listening to the audio stream or in some
-      cases following the proceedings using a real-collaboration system
-      (currently exemplified by the MeetEcho service).  These
 
 
 
@@ -114,10 +114,17 @@ Saint-Andre & York       Expires August 21, 2015                [Page 2]
 Internet-Draft             Jabber Scribe Role              February 2015
 
 
+   o  Remote Participants
+
+      Remote attendees who are listening to the audio stream or in some
+      cases following the proceedings using a real-collaboration system
+      (currently exemplified by the MeetEcho service).  These
       participants might wish to send questions or feedback to the
       physical room.
 
-   o  IETF meeting attendees who are in another simultaneous session in
+   o  Observers
+
+      IETF meeting attendees who are in another simultaneous session in
       a different physical room.  These participants are often
       monitoring the chatroom session to find out when a particular
       topic is being discussed or to observe what is being discussed in
@@ -126,10 +133,12 @@ Internet-Draft             Jabber Scribe Role              February 2015
       that they can know when they might need to change locations to
       participate in the session's physical room.
 
-   o  IETF meeting attendees who are in the same session.  These
-      participants like to follow the discussions in the physical room
-      and the chatroom at the same time.  They can also provide some
-      assistance to Jabber scribes.
+   o  Local Participants
+
+      IETF meeting attendees who are in the same session.  Sometimes
+      these participants like to follow the discussions in the physical
+      room and the chatroom at the same time.  They can also provide
+      some assistance to Jabber scribes.
 
    Because all chatroom sessions are logged during IETF meetings and the
    logs are publicly available, the logs can be a very useful history of
@@ -154,21 +163,18 @@ Internet-Draft             Jabber Scribe Role              February 2015
       physical room to the chatroom (preferably after receiving a
       "reading" from the session chairs).
 
-   It is the convention in most sessions that the Jabber scribe has the
-   privilege to go to the front of the microphone line to relay the
-   question(s) from remote participants.  Some Jabber scribes choose to
-   exercise that privilege while others choose to wait in line along
-   with the participants in the physical meeting rooom.
-
-
-
-
 
 
 Saint-Andre & York       Expires August 21, 2015                [Page 3]
 
 Internet-Draft             Jabber Scribe Role              February 2015
 
+
+   It is the convention in most sessions that the Jabber scribe has the
+   privilege to go to the front of the microphone line to relay the
+   question(s) from remote participants.  Some Jabber scribes choose to
+   exercise that privilege while others choose to wait in line along
+   with the participants in the physical meeting rooom.
 
 4.  Additional Tasks
 
@@ -211,13 +217,7 @@ Internet-Draft             Jabber Scribe Role              February 2015
    o  Coordinate with the chairs to ensure that remote participants have
       received information about where to find the meeting materials,
       agenda, audio stream, etc. (e.g., this information can be sent to
-      a working group discussion list so that remote participants do not
-      need to ask about it on entering the chatroom).
 
-   o  Coordinate with the chairs to see if they have any special
-      expectations for the Jabber scribe (e.g., some chairs might want
-      you to actually "scribe" more detailed information about the
-      session proceedings into the chatroom).
 
 
 
@@ -225,6 +225,14 @@ Saint-Andre & York       Expires August 21, 2015                [Page 4]
 
 Internet-Draft             Jabber Scribe Role              February 2015
 
+
+      a working group discussion list so that remote participants do not
+      need to ask about it on entering the chatroom).
+
+   o  Coordinate with the chairs to see if they have any special
+      expectations for the Jabber scribe (e.g., some chairs might want
+      you to actually "scribe" more detailed information about the
+      session proceedings into the chatroom).
 
    o  Ask the session chairs whether it is acceptable for you to advance
       to the front of the mic line with time-sensitive comments from
@@ -267,20 +275,16 @@ Internet-Draft             Jabber Scribe Role              February 2015
       (e.g., a controversial BoF), find an assistant who can help you by
       sitting at another mic, taking turns relaying information, etc.
 
-   Identifying one or more assistants is very useful particularly if you
-   want to go up to the microphone to speak as an individual or if you
-   need to take a break or step out of the physical room at some point.
-
-
-
-
-
 
 
 Saint-Andre & York       Expires August 21, 2015                [Page 5]
 
 Internet-Draft             Jabber Scribe Role              February 2015
 
+
+   Identifying one or more assistants is very useful particularly if you
+   want to go up to the microphone to speak as an individual or if you
+   need to take a break or step out of the physical room at some point.
 
 5.3.  During the Session
 
@@ -326,10 +330,6 @@ Internet-Draft             Jabber Scribe Role              February 2015
 
    o  Be aware that lag happens between the time when something is said
       in the physical room and the time when someone provides a response
-      in the chatroom, and take this into account when the interaction
-      is time-sensitive (e.g., during a hum or a show of hands).
-
-
 
 
 
@@ -337,6 +337,9 @@ Saint-Andre & York       Expires August 21, 2015                [Page 6]
 
 Internet-Draft             Jabber Scribe Role              February 2015
 
+
+      in the chatroom, and take this into account when the interaction
+      is time-sensitive (e.g., during a hum or a show of hands).
 
    o  Because of the potential lag time, ask remote participants who are
       doing a hum to indicate what choice their hum is for rather than
@@ -382,9 +385,6 @@ Internet-Draft             Jabber Scribe Role              February 2015
    attacks on discussions held in IETF chatrooms.  It can be helpful for
    Jabber scribes to be aware of this possibility.
 
-   Denial of service (DoS) attacks of various kinds are possible, e.g.,
-   flooding a chatroom with unwanted or automated traffic.
-
 
 
 
@@ -393,6 +393,9 @@ Saint-Andre & York       Expires August 21, 2015                [Page 7]
 
 Internet-Draft             Jabber Scribe Role              February 2015
 
+
+   Denial of service (DoS) attacks of various kinds are possible, e.g.,
+   flooding a chatroom with unwanted or automated traffic.
 
 9.  References
 
@@ -405,10 +408,11 @@ Internet-Draft             Jabber Scribe Role              February 2015
 
 Appendix A.  Acknowledgements
 
-   Thanks to Dan Burnett, Jelte Jansen, Warren Kumari, Jonathan Lennox,
-   Alexandre Petrescu, Hugo Salgado, Yaakov Stein, and Greg Wood for
-   their input.  Thoughts and ideas sent by Wes George and Janet Gunn to
-   an IETF 87 mailing list were incorporated into this document.
+   Thanks to Dan Burnett, Dave Crocker, Jelte Jansen, Warren Kumari,
+   Jonathan Lennox, Alexandre Petrescu, Hugo Salgado, Yaakov Stein, and
+   Greg Wood for their input.  Thoughts and ideas sent by Wes George and
+   Janet Gunn to an IETF 87 mailing list were also incorporated into
+   this document.
 
 Authors' Addresses
 
@@ -424,10 +428,6 @@ Authors' Addresses
 
    Email: york@isoc.org
    URI:   https://www.internetsociety.org/
-
-
-
-
 
 
 
