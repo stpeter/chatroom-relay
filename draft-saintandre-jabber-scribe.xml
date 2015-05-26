@@ -5,7 +5,7 @@
 <?rfc symrefs="yes"?>
 <?rfc toc="yes"?>
 <?rfc tocdepth="3"?>
-<rfc category="info" docName="draft-saintandre-jabber-scribe-02" ipr="trust200902">
+<rfc category="info" docName="draft-saintandre-jabber-scribe-03" ipr="trust200902">
 
   <front>
     <title abbrev="Jabber Scribe Role">The Jabber Scribe Role at IETF Meetings</title>
@@ -41,7 +41,7 @@
   <middle>
 
     <section title="Introduction" anchor="intro">
-      <t>During IETF meetings, individual volunteers often help sessions run more smoothly by relaying information back and forth between the physical meeting room and an associated textual chatroom.  Because these chatrooms are currently implemented using Jabber/XMPP technologies (see <xref target='RFC6120'/> and <xref target='XEP-0045'/>) the role is commonly referred to as that of a "Jabber scribe".</t>
+      <t>During IETF meetings, individual volunteers often help sessions run more smoothly by relaying information back and forth between the physical meeting room and an associated textual chatroom.  Because these chatrooms are currently implemented using Jabber/XMPP technologies (see <xref target='RFC6120'/> and <xref target='XEP-0045'/>) the role is commonly referred to as that of a "Jabber scribe" (however, nothing prevents the IETF from using some other technology for chatrooms in the future, or from discontinuing the use of chatrooms entirely).</t>
       <t>This role is important because it is the primary way for a remote attendee to provide feedback or comments back into most IETF meeting sessions.  Although there are multiple ways that a remote attendee can listen and follow along, the chatroom provides a method of returning feedback to the physical meeting in something close to real time.  These methods hold true for IETF working group sessions, IRTF research group sessions, IETF "birds of a feather" (BoF) sessions, and similar sessions at IETF meetings.</t>
       <t>This document provides suggestions for fulfilling the role of a Jabber scribe, based on the authors' personal experience as well as input from other individuals who frequently volunteer as scribes.</t>
     </section>
@@ -75,7 +75,7 @@
       <t>
         <list style='symbols'>
           <t>Relay questions and comments from the chatroom to the physical room. This typically involves going to the microphone to relay the comment from the remote participant.</t>
-          <t>Count the number of chatroom participants who virtually "hum", raise their hands, volunteer to review documents, etc., and feed that information back to the physical room.</t>
+          <t>Count or otherwise take account of the number of chatroom participants who virtually "hum", raise their hands, volunteer to review documents, etc., and feed that information back to the physical room.  (Although humming in the physical room provides some level of anonymity, that is not true in the chatroom since the only way to register one's opinion is to type something like "hum in favor"; in this case, it is acceptable for the scribe to at least provide a rough count or percentage of hums from chatroom participants in order to get a sense of the chatroom.)</t>
           <t>Relay information about hums and similar interactions from the physical room to the chatroom (preferably after receiving a "readout" from the session chairs).</t>
         </list>
       </t>
@@ -87,7 +87,7 @@
       <t>Additionally some scribes often complete the following tasks:</t>
       <t>
         <list style='symbols'>
-          <t>Relay the names of people speaking in the physical room to the chatroom. (To save typing the full names of people who speak frequently, scribes often use initials, but ought to expand the initials on first use.)</t>
+          <t>Relay the names of people speaking in the physical room to the chatroom. (To save typing the full names of people who speak frequently, scribes often use initials, but ought to expand the initials on first use.)  See <xref target='suggestions-during'/> for details.</t>
           <t>Relay the slide numbers or slide titles so that it is easier for chatroom participants to follow along.</t>
           <t>Query remote participants about audio streaming quality, and relay such information to the session chairs.</t>
           <t>Relay to the chatroom participants any logistical or procedural issues related to the meeting (e.g., known technical glitches at the physical meeting or delays in starting the session).</t>
@@ -101,7 +101,7 @@
     <section title="Suggestions" anchor="suggestions">
       <t>Experience has shown that the following behaviors make it easier to act as a scribe.</t>
       <section title="Getting Set Up with Jabber" anchor="suggestions-jabber">
-        <t>An overview of the IETF Jabber service can be found at &lt;http://www.ietf.org/jabber/&gt;.  Many common instant messaging clients support the Jabber/XMPP protocols, and at the time of writing a list of such clients can be found at &lt;http://xmpp.org/xmpp-software/clients/&gt;.  Because the IETF Jabber service provides chatrooms only and does not enable direct registration of user accounts, you will need to create a user account at another service; one list of such services can be found at &lt;https://xmpp.net/directory.php&gt;.</t>
+        <t>An overview of the IETF Jabber service can be found at the <eref target='http://www.ietf.org/jabber/'>IETF Jabber Service Web Page</eref>.  Many common instant messaging clients support the Jabber/XMPP protocols, and at the time of writing a list of such clients can be found at the <eref target='http://xmpp.org/xmpp-software/clients/'>XMPP Standards Foundation Software List</eref>.  Because the IETF Jabber service provides chatrooms only and does not enable direct registration of user accounts, you will need to create a user account at another service; one list of such services can be found at the <eref target='https://xmpp.net/directory.php'>IM Observatory Service Directory</eref>.  At the time of writing, the Meetecho service used at IETF meetings also enables you to join IETF chatrooms directly without creating an account at another server.</t>
         <t>Not all clients support the ability to join a chatroom, so you might want to test your preferred software in advance of the meeting (the hallway@jabber.ietf.org room is a good place to test).  Although the exact user interface for joining a chatroom depends on the software you are using, typically such software will have a "join room" option that prompts you to provide the entire room address (e.g., "hallway@jabber.ietf.org") or separately provide the name of the room (e.g., "hallway") and the domain of the chatroom service (e.g., "jabber.ietf.org").  Asking your fellow IETF participants about their preferred software applications can be a good way to learn about Jabber/XMPP clients that you might want to use.</t>
       </section>
       <section title="Before the Session Begins" anchor="suggestions-before">
@@ -124,10 +124,10 @@
               <list style='symbols'>
                 <t>the agenda page for the session</t>
                 <t>the overall agenda page for the IETF meeting (the "tools-style agenda" can be especially helpful for copying links for session-specific resources such as the audio stream)</t>
-                <t>the materials page so that you can relay links to slides if necessary (at the time of this writing, URLs for materials related to IETF working groups are of the form "https://datatracker.ietf.org/meeting/&lt;nn&gt;/materials.html#&lt;name&gt;", where "nn" is the meeting number and "name" is the acronym for the working group, research group, or BoF)</t>
+                <t>the materials page so that you can relay links to slides if necessary (at the time of writing, URLs for materials related to IETF working groups are of the form "https://datatracker.ietf.org/meeting/&lt;nn&gt;/materials.html#&lt;name&gt;", where "nn" is the meeting number and "name" is the acronym for the working group, research group, or BoF)</t>
                 <t>the documents page for the working group or research group (or BoF wiki page) in case you want easy access to documents mentioned but not in the agenda page</t>
                 <t>the meeting registration system page (see below)</t>
-                <t>the overall remote participation page for the IETF meeting in question (at the time of this writing, the URL for this page is of the form "http://www.ietf.org/meeting/&lt;nn&gt;/remote-participation.html", where "nn" is the meeting number</t>
+                <t>the overall remote participation page for the IETF meeting in question (at the time of writing, the URL for this page is of the form "http://www.ietf.org/meeting/&lt;nn&gt;/remote-participation.html", where "nn" is the meeting number</t>
               </list>
             </t>
             <t>Determine if the session will be streamed via a realtime collaboration system such as Meetecho. If so, you can also point remote participants to that system for interaction.</t>
@@ -150,7 +150,7 @@
                 <t>look at their name badge if you are seated nearby</t>
                 <t>query them directly (calling out "state your name, please" is acceptable)</t>
                 <t>ask in the chatroom or type something like "?? at the mic", since it is likely that a local participant will be able to identify the person for you</t>
-                <t>look up the name of the attendee in the meeting registration system (this is typically found at a URL of the form "https://www.ietf.org/registration/&lt;meeting&gt;/attendance.py", such as "https://www.ietf.org/registration/ietf90/attendance.py"); you can quickly look up a name using this system if you are in doubt.</t>
+                <t>look up the name of the attendee in the meeting registration system (at the time of writing, this is typically found at a URL of the form "https://www.ietf.org/registration/&lt;meeting&gt;/attendance.py", such as "https://www.ietf.org/registration/ietf90/attendance.py"); you can quickly look up a name using this system if you are in doubt.</t>
               </list>
             </t>
             <t>Be aware that lag happens between the time when something is said in the physical room and the time when someone provides a response in the chatroom, and take this into account when the interaction is time-sensitive (e.g., during a hum or a show of hands).</t>
@@ -183,7 +183,7 @@
     </section>
 
     <section title="Reporting Problems at the Meeting Venue" anchor="reporting">
-      <t>If you need to report a problem during an IETF meeting (e.g., problems with media streaming), at the time of this writing there are several ways to do so:
+      <t>If you need to report a problem during an IETF meeting (e.g., problems with media streaming), at the time of writing there are several ways to do so:
         <list style='symbols'>
           <t>For network and media streaming issues, send email to tickets@meeting.ietf.org.</t>
           <t>For all other issues, send email to the "Meeting Trouble Desk" via mtd@ietf.org.</t>
@@ -194,7 +194,7 @@
     </section>
 
     <section title="Intellectual Property Rights (IPR)" anchor="ipr">
-      <t>When a chatroom participant makes a comment in the chatroom (whether or not it is relayed to the physical room), that statement is considered to be a "contribution" and therefore is covered by the provisions of BCP 78 and BCP 79.  A scribe does not become a "contributor" by the simple fact of relaying such a contribution, and the primary responsibility for adherence to the IETF's IPR policies applies to the person making the comments.  However, a scribe can help ensure compliance with the IETF's IPR by asking chatroom participants using an alias to confirm their identities before relaying their contributions.</t>
+      <t>When a chatroom participant makes a comment in the chatroom (whether or not it is relayed to the physical room), that statement is considered to be a "contribution" to the Internet Standards Process <xref target='RFC2026'/> and therefore is covered by the provisions of BCP 78 (see <xref target='RFC5378'/>) and BCP 79 (see <xref target='RFC3979'/> and <xref target='RFC4879'/>).  A scribe does not become a "contributor" by the simple fact of relaying such a contribution, and the primary responsibility for adherence to the IETF's IPR policies applies to the person making the comments.  However, a scribe can help ensure compliance with the IETF's IPR by asking chatroom participants using an alias to confirm their identities before relaying their contributions.</t>
     </section>
 
     <section title="IANA Considerations" anchor="iana">
@@ -202,13 +202,80 @@
     </section>
 
     <section title="Security Considerations" anchor="security">
-      <t>Although XMPP multi-user chat rooms <xref target='XEP-0045'/> can be configured to lock down nicknames and require registration with the chatroom in order to join, at the time of this writing IETF chatrooms are not so configured.  This introduces the possibility of social engineering attacks on discussions held in IETF chatrooms.  It can be helpful for scribes to be aware of this possibility.</t>
-      <t>In addition, denial of service (DoS) attacks of various kinds are possible, e.g., flooding a chatroom with unwanted or automated traffic.</t>
+      <t>Although XMPP multi-user chat rooms <xref target='XEP-0045'/> can be configured to lock down nicknames and require registration with the chatroom in order to join, at the time of writing IETF chatrooms are not so configured.  This introduces the possibility of social engineering attacks on discussions held in IETF chatrooms.  It can be helpful for scribes to be aware of this possibility.</t>
+      <t>In addition, denial of service (DoS) attacks of various kinds are possible, e.g., flooding a chatroom with unwanted traffic.</t>
     </section>
 
   </middle>
 
   <back>
+
+    <references title="Normative References">
+
+<reference anchor='RFC2026'>
+<front>
+<title abbrev='Internet Standards Process'>The Internet Standards Process -- Revision 3</title>
+<author initials='S.' surname='Bradner' fullname='Scott O. Bradner'>
+<organization>Harvard University</organization>
+<address>
+<postal>
+<street>1350 Mass. Ave.</street>
+<city>Cambridge</city>
+<region>MA</region>
+<code>02138</code>
+<country>US</country></postal>
+<phone>+1 617 495 3864</phone>
+<email>sob@harvard.edu</email></address></author>
+<date year='1996' month='October' />
+<abstract>
+<t>This memo documents the process used by the Internet community for the standardization of protocols and procedures.  It defines the stages in the standardization process, the requirements for moving a document between stages and the types of documents used during this process.  It also addresses the intellectual property rights and copyright issues associated with the standards process.</t></abstract></front>
+<seriesInfo name='BCP' value='9' />
+<seriesInfo name='RFC' value='2026' />
+<format type='TXT' octets='86731' target='http://www.rfc-editor.org/rfc/rfc2026.txt' />
+</reference>
+
+<reference anchor='RFC3979'>
+<front>
+<title>Intellectual Property Rights in IETF Technology</title>
+<author initials='S.' surname='Bradner' fullname='S. Bradner'>
+<organization /></author>
+<date year='2005' month='March' />
+<abstract>
+<t>The IETF policies about Intellectual Property Rights (IPR), such as patent rights, relative to technologies developed in the IETF are designed to ensure that IETF working groups and participants have as much information about any IPR constraints on a technical proposal as possible.  The policies are also intended to benefit the Internet community and the public at large, while respecting the legitimate rights of IPR holders.  This memo details the IETF policies concerning IPR related to technology worked on within the IETF.  It also describes the objectives that the policies are designed to meet.  This memo updates RFC 2026 and, with RFC 3978, replaces Section 10 of RFC 2026.  This memo also updates paragraph 4 of Section 3.2 of RFC 2028, for all purposes, including reference [2] in RFC 2418.  This document specifies an Internet Best Current Practices for the Internet Community, and requests discussion and suggestions for improvements.</t></abstract></front>
+<seriesInfo name='BCP' value='79' />
+<seriesInfo name='RFC' value='3979' />
+<format type='TXT' octets='41366' target='http://www.rfc-editor.org/rfc/rfc3979.txt' />
+</reference>
+
+<reference anchor='RFC4879'>
+<front>
+<title>Clarification of the Third Party Disclosure Procedure in RFC 3979</title>
+<author initials='T.' surname='Narten' fullname='T. Narten'>
+<organization /></author>
+<date year='2007' month='April' />
+<abstract>
+<t>This document clarifies and updates a single sentence in RFC 3979.  Specifically, when third party Intellectual Property Rights (IPR) disclosures are made, the intention is that the IETF Executive Director notify the IPR holder that a third party disclosure has been filed, and to ask the IPR holder whether they have any disclosure that needs to be made, per applicable RFC 3979 rules.  This document specifies an Internet Best Current Practices for the Internet Community, and requests discussion and suggestions for improvements.</t></abstract></front>
+<seriesInfo name='BCP' value='79' />
+<seriesInfo name='RFC' value='4879' />
+<format type='TXT' octets='5570' target='http://www.rfc-editor.org/rfc/rfc4879.txt' />
+</reference>
+
+<reference anchor='RFC5378'>
+<front>
+<title>Rights Contributors Provide to the IETF Trust</title>
+<author initials='S.' surname='Bradner' fullname='S. Bradner'>
+<organization /></author>
+<author initials='J.' surname='Contreras' fullname='J. Contreras'>
+<organization /></author>
+<date year='2008' month='November' />
+<abstract>
+<t>The IETF policies about rights in Contributions to the IETF are designed to ensure that such Contributions can be made available to the IETF and Internet communities while permitting the authors to retain as many rights as possible.  This memo details the IETF policies on rights in Contributions to the IETF.  It also describes the objectives that the policies are designed to meet.  This memo obsoletes RFCs 3978 and 4748 and, with BCP 79 and RFC 5377, replaces Section 10 of RFC 2026.  This document specifies an Internet Best Current Practices for the Internet Community, and requests discussion and suggestions for improvements.</t></abstract></front>
+<seriesInfo name='BCP' value='78' />
+<seriesInfo name='RFC' value='5378' />
+<format type='TXT' octets='37980' target='http://www.rfc-editor.org/rfc/rfc5378.txt' />
+</reference>
+
+    </references>
 
     <references title="Informative References">
 
