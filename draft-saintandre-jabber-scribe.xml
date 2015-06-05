@@ -5,7 +5,7 @@
 <?rfc symrefs="yes"?>
 <?rfc toc="yes"?>
 <?rfc tocdepth="3"?>
-<rfc category="info" docName="draft-saintandre-jabber-scribe-03" ipr="trust200902">
+<rfc category="info" docName="draft-saintandre-jabber-scribe-04" ipr="trust200902">
 
   <front>
     <title abbrev="Jabber Scribe Role">The Jabber Scribe Role at IETF Meetings</title>
@@ -134,15 +134,15 @@
             <t>If the session is large or is expected to be especially active (e.g., a controversial BoF), find a co-scribe who can help you by sitting at another microphone, taking turns relaying information, etc.</t>
           </list>
         </t>
-        <t>Identifying one or more co-scribes is particularly useful if you want to go up to the microphone to speak as an individual, if you have a presentation to make, or if you need to take a break or step out of the physical room at some point.  You can work with a co-scribe as a temporary stand-in or as someone who share the load across the whole meeting.</t>
+        <t>Identifying one or more co-scribes is particularly useful if you want to go up to the microphone to speak as an individual, if you have a presentation to make, or if you need to take a break or step out of the physical room at some point.  You can work with a co-scribe as a temporary stand-in or as someone who shares responsibility for scribing throughout the whole meeting.</t>
       </section>
 
       <section title="During the Session" anchor="suggestions-during">
         <t>As you perform your role during the session:</t>
         <t>
           <list style='symbols'>
-            <t>Identify yourself in both the physical room and the chatroom so that participants in both venues know you are a scribe.</t>
-            <t>Ask chatroom participants what level of information they need relayed into the chatroom.  For example if all chatroom participants are listening via audio or a system like Meetecho they might need less information relayed from the room.</t>
+            <t>Identify yourself in both the physical room and the chatroom (or ask the session chairs to identify you) so that participants in both venues know you are a scribe.</t>
+            <t>Ask chatroom participants what level of information they need relayed into the chatroom.  For example if all chatroom participants are listening via audio or a system like Meetecho, they might need less information relayed from the room.</t>
             <t>Ask chatroom participants to prepend statements they would like you to relay with "RELAY" or "MIC" (the former term is less ambiguous).</t>
             <t>When relaying a question or comment from the chatroom to the physical room, say "this is X relaying for Y from the chatroom" so that people know you are not speaking for yourself.</t>
             <t>It's not expected that you will know the names of everyone who comes to the microphone.  If you don't know the name of a person at the microphone, you have several options:
@@ -150,11 +150,11 @@
                 <t>look at their name badge if you are seated nearby</t>
                 <t>query them directly (calling out "state your name, please" is acceptable)</t>
                 <t>ask in the chatroom or type something like "?? at the mic", since it is likely that a local participant will be able to identify the person for you</t>
-                <t>look up the name of the attendee in the meeting registration system (at the time of writing, this is typically found at a URL of the form "https://www.ietf.org/registration/&lt;meeting&gt;/attendance.py", such as "https://www.ietf.org/registration/ietf90/attendance.py"); you can quickly look up a name using this system if you are in doubt.</t>
+                <t>if you know part of the attendee's name, look up their full name in the meeting registration system (at the time of writing, this is typically found at a URL of the form "https://www.ietf.org/registration/&lt;meeting&gt;/attendance.py", such as "https://www.ietf.org/registration/ietf90/attendance.py"); you can quickly look up a name using this system if you are in doubt.</t>
               </list>
             </t>
             <t>Be aware that lag happens between the time when something is said in the physical room and the time when someone provides a response in the chatroom, and take this into account when the interaction is time-sensitive (e.g., during a hum or a show of hands).</t>
-            <t>Because of the lag time, ask remote participants who are doing a hum to indicate what choice their hum is for rather than just typing "hum" into the chat room. For example, "hum yes" or "hum for option 1". You can then more easily tally the results and report them to the physical room.</t>
+            <t>Because of the lag time, ask remote participants who participate in a hum to indicate what choice their hum is for rather than just typing "hum" into the chat room. For example, "hum yes" or "hum for option 1". You can then more easily tally the results and report them to the physical room.</t>
           </list>
         </t>
       </section>
@@ -164,7 +164,7 @@
           <list style='symbols'>
             <t>Post a message into the chatroom informing all of the participants that the session is finishing up, and ask for any final comments to be relayed.</t>
             <t>When the session is done, say so in the chatroom.</t>
-            <t>Indicate that you are leaving the Jabber room and that no one will be available relay further comments.</t>
+            <t>Indicate that you are leaving the Jabber room and that no one will be available to relay further comments.</t>
           </list>
         </t>
       </section>
@@ -173,13 +173,13 @@
     <section title="Advanced Tips" anchor="advanced">
       <t>It can be helpful to run two separate Jabber clients connected to two separate Jabber servers, in order to prevent delays if one of the servers experiences an outage during the session (yes, it has happened).</t>
       <t>If you have a chance to do so, you might want to measure the lag time between when something is said in the physical room and when it is heard on the audio stream and then let the remote participants know the length of the delay. This could be accomplished by either listening to the audio stream yourself or working with a remote participant who you know is on the audio stream.</t>
-      <t>Sometimes a remote participant gets into a longer discussion with someone in the physical room.  In these situations it can be easier to stand at the microphone so that you can relay a series of comments.</t>
+      <t>Sometimes a remote participant has a long discussion with someone in the physical room.  In these situations it can be easier to stand at the microphone so that you can relay a series of comments.</t>
     </section>
 
     <section title="Dealing with Abusive or Inappropriate Behavior" anchor="abuse">
       <t>On occasion, tempers run hot and discussions become contentious.  In such situations, comments provided in the chatroom might even become abusive or inappropriate.</t>
       <t>A scribe is under no obligation to relay such comments verbatim, or to edit them in real time at the microphone.  Instead, a suitable approach is ask the contributor to rephrase the comments in a more constructive way.</t>
-      <t>That said, a scribe is not responsible for managing handling poor behavior within the session (that responsibility lies initially with the chairs), and is not expected to take any specific action other than as a regular member of the IETF community.</t>
+      <t>That said, a scribe is not responsible for managing poor behavior within the session (that responsibility lies initially with the chairs), and is not expected to take any specific action other than as a regular member of the IETF community.</t>
     </section>
 
     <section title="Reporting Problems at the Meeting Venue" anchor="reporting">
@@ -194,7 +194,7 @@
     </section>
 
     <section title="Intellectual Property Rights (IPR)" anchor="ipr">
-      <t>When a chatroom participant makes a comment in the chatroom (whether or not it is relayed to the physical room), that statement is considered to be a "contribution" to the Internet Standards Process <xref target='RFC2026'/> and therefore is covered by the provisions of BCP 78 (see <xref target='RFC5378'/>) and BCP 79 (see <xref target='RFC3979'/> and <xref target='RFC4879'/>).  A scribe does not become a "contributor" by the simple fact of relaying such a contribution, and the primary responsibility for adherence to the IETF's IPR policies applies to the person making the comments.  However, a scribe can help ensure compliance with the IETF's IPR by asking chatroom participants using an alias to confirm their identities before relaying their contributions.</t>
+      <t>When a chatroom participant makes a comment in the chatroom (whether or not it is relayed to the physical room), that statement is considered to be a "contribution" to the Internet Standards Process <xref target='RFC2026'/> and therefore is covered by the provisions of BCP 78 (see <xref target='RFC5378'/>) and BCP 79 (see <xref target='RFC3979'/> and <xref target='RFC4879'/>).  A scribe does not become a "contributor" by the simple fact of relaying such a contribution, and the primary responsibility for adherence to the IETF's IPR policies applies to the person making the comments.  However, a scribe can help ensure compliance with the IETF's IPR policies by asking chatroom participants using an alias to confirm their identities before relaying their contributions.</t>
     </section>
 
     <section title="IANA Considerations" anchor="iana">
