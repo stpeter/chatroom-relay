@@ -62,7 +62,7 @@
         </list>
       </t>
       <t>It can happen that all of the chatroom participants are local participants and thus do not require intensive service from a scribe.  Feel free to ask in the chatroom to determine if there are indeed any remote participants.</t>
-      <t>Chatroom participants are usually identified by a "nickname" or "handle" rather than a full name.  This can be confusing to scribes, because they don't always know who is providing comments to be relayed.  A scribe ought to ask for clarification so that the identity of the remote participant can be communicated at the microphone (see also <xref target='ipr'/>).  If a remote participant insists on remaining anonymous, it is best for the scribe to ask the meeting chairs whether they want the comments to be relayed nor not.</t>
+      <t>Chatroom participants are usually identified by a "nickname" or "handle" rather than a full name.  This can be confusing to scribes, because they don't always know who is providing comments to be relayed.  A scribe ought to ask for clarification so that the identity of the remote participant can be communicated at the microphone (see also <xref target='ipr'/>).  If a remote participant insists on remaining anonymous, it is best for the scribe to remind them of the "Note Well" and point to that document as a justification for not relaying said comments to the meeting.</t>
     </section>
 
     <section title="Know Yourself" anchor="self">
@@ -312,7 +312,7 @@
     </references>
 
     <section title="Acknowledgements" anchor="acks">
-      <t>Thanks to Dan Burnett, Dave Crocker, Adrian Farrel, Wes George, Janet Gunn, Joel Halpern, Jelte Jansen, Michael Jenkins, Olle Johansson, Warren Kumari, Jonathan Lennox, Alexandre Petrescu, Hugo Salgado, Melinda Shore, Lotte Steenbrink, Yaakov Stein, and Greg Wood for their helpful comments and suggestions.  Adrian Farrel in particular proposed text for the sections on IPR and dealing with inappropriate behavior.</t>
+      <t>Thanks to Dan Burnett, Dave Crocker, Adrian Farrel, Wes George, Janet Gunn, Joel Halpern, Jelte Jansen, Michael Jenkins, Olle Johansson, Warren Kumari, Jonathan Lennox, Jon Mitchell, Alexandre Petrescu, Hugo Salgado, Melinda Shore, Lotte Steenbrink, Yaakov Stein, and Greg Wood for their helpful comments and suggestions.  Adrian Farrel in particular proposed text for the sections on IPR and dealing with inappropriate behavior.</t>
     </section>
 
   </back>
