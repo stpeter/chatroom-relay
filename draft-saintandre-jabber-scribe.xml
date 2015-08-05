@@ -5,7 +5,7 @@
 <?rfc symrefs="yes"?>
 <?rfc toc="yes"?>
 <?rfc tocdepth="3"?>
-<rfc category="info" docName="draft-saintandre-jabber-scribe-04" ipr="trust200902">
+<rfc category="info" docName="draft-saintandre-jabber-scribe-05" ipr="trust200902">
 
   <front>
     <title abbrev="Jabber Scribe Role">The Jabber Scribe Role at IETF Meetings</title>
@@ -34,7 +34,7 @@
     <keyword>IETF meetings</keyword>
 
     <abstract>
-      <t>During IETF meetings, individual volunteers often help sessions run more smoothly by relaying information back and forth between the physical meeting room and an associated textual chatroom.  Such volunteers, commonly called "Jabber scribes", might benefit from the suggestions provided in this document.</t>
+      <t>During IETF meetings, individual volunteers often help sessions run more smoothly by relaying information back and forth between the physical meeting room and an associated textual chatroom.  Such volunteers are commonly called "Jabber scribes".  This document summarizes experience with the Jabber scribe role and provides some suggestions for fulfilling the role at IETF meetings.</t>
     </abstract>
   </front>
 
@@ -43,7 +43,7 @@
     <section title="Introduction" anchor="intro">
       <t>During IETF meetings, individual volunteers often help sessions run more smoothly by relaying information back and forth between the physical meeting room and an associated textual chatroom.  Because these chatrooms are currently implemented using Jabber/XMPP technologies (see <xref target='RFC6120'/> and <xref target='XEP-0045'/>) the role is commonly referred to as that of a "Jabber scribe" (however, nothing prevents the IETF from using some other technology for chatrooms in the future, or from discontinuing the use of chatrooms entirely).</t>
       <t>This role is important because it is the primary way for a remote attendee to provide feedback or comments back into most IETF meeting sessions.  Although there are multiple ways that a remote attendee can listen and follow along, the chatroom provides a method of returning feedback to the physical meeting in something close to real time.  These methods hold true for IETF working group sessions, IRTF research group sessions, IETF "birds of a feather" (BoF) sessions, and similar sessions at IETF meetings.</t>
-      <t>This document provides suggestions for fulfilling the role of a Jabber scribe, based on the authors' personal experience as well as input from other individuals who frequently volunteer as scribes.</t>
+      <t>Based on the authors' personal experience as well as input from other individuals who frequently volunteer, this document provides some suggestions for fulfilling the role of a Jabber scribe at IETF meetings.</t>
     </section>
 
     <section title="Know Your Users" anchor="users">
@@ -154,7 +154,7 @@
               </list>
             </t>
             <t>Be aware that lag happens between the time when something is said in the physical room and the time when someone provides a response in the chatroom, and take this into account when the interaction is time-sensitive (e.g., during a hum or a show of hands).</t>
-            <t>Because of the lag time, ask remote participants who participate in a hum to indicate what choice their hum is for rather than just typing "hum" into the chat room. For example, "hum yes" or "hum for option 1". You can then more easily tally the results and report them to the physical room.</t>
+            <t>Because of the lag time, ask remote participants who participate in a hum to indicate what choice their hum is for rather than just typing "hum" into the chatroom. For example, "hum yes" or "hum for option 1". You can then more easily tally the results and report them to the physical room.</t>
           </list>
         </t>
       </section>
@@ -188,7 +188,7 @@
           <t>For network and media streaming issues, send email to tickets@meeting.ietf.org.</t>
           <t>For all other issues, send email to the "Meeting Trouble Desk" via mtd@ietf.org.</t>
           <t>To chat with members of the Network Operations Center (NOC), join the noc@jabber.ietf.org chatroom.</t>
-          <t>To report a problem with Meetecho, mention "Meetecho" (capital M) in the chat room and the Meetecho team will be alerted.  (They join the chat rooms for all sessions as the user "Meetecho".)
+          <t>To report a problem with Meetecho, mention "Meetecho" (with a capital "M") in the chatroom and the Meetecho team will be alerted.  (They join the chatrooms for all sessions as the user "Meetecho".)</t>
           <t>To report a problem in person, visit the help desk in the Terminal Room.</t>
         </list>
       </t>
@@ -203,7 +203,7 @@
     </section>
 
     <section title="Security Considerations" anchor="security">
-      <t>Although XMPP multi-user chat rooms <xref target='XEP-0045'/> can be configured to lock down nicknames and require registration with the chatroom in order to join, at the time of writing IETF chatrooms are not so configured.  This introduces the possibility of social engineering attacks on discussions held in IETF chatrooms.  It can be helpful for scribes to be aware of this possibility.</t>
+      <t>Although XMPP Multi-User Chat <xref target='XEP-0045'/> rooms can be configured to lock down nicknames and require registration with the chatroom in order to join, at the time of writing IETF chatrooms are not so configured.  This introduces the possibility of social engineering attacks on discussions held in IETF chatrooms.  It can be helpful for scribes to be aware of this possibility.</t>
       <t>In addition, denial of service (DoS) attacks of various kinds are possible, e.g., flooding a chatroom with unwanted traffic.</t>
     </section>
 
@@ -313,7 +313,7 @@
     </references>
 
     <section title="Acknowledgements" anchor="acks">
-      <t>Thanks to Dan Burnett, Dave Crocker, Adrian Farrel, Wes George, Janet Gunn, Joel Halpern, Jelte Jansen, Michael Jenkins, Olle Johansson, Warren Kumari, Jonathan Lennox, Jon Mitchell, Alexandre Petrescu, Hugo Salgado, Melinda Shore, Lotte Steenbrink, Yaakov Stein, Dave Thaler and Greg Wood for their helpful comments and suggestions.  Adrian Farrel in particular proposed text for the sections on IPR and dealing with inappropriate behavior.</t>
+      <t>Thanks to Dan Burnett, Dave Crocker, Adrian Farrel, Wes George, Janet Gunn, Joel Halpern, Jelte Jansen, Michael Jenkins, Olle Johansson, Warren Kumari, Jonathan Lennox, Jon Mitchell, Alexandre Petrescu, Hugo Salgado, Melinda Shore, Lotte Steenbrink, Yaakov Stein, Dave Thaler, and Greg Wood for their helpful comments and suggestions.  Adrian Farrel in particular proposed text for the sections on IPR and dealing with inappropriate behavior.</t>
     </section>
 
   </back>
