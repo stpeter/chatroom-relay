@@ -150,7 +150,7 @@
                 <t>look at their name badge if you are seated nearby</t>
                 <t>query them directly (calling out "state your name, please" is acceptable)</t>
                 <t>ask in the chatroom or type something like "?? at the mic", since it is likely that a local participant will be able to identify the person for you</t>
-                <t>if you know part of the attendee's name, look up their full name in the meeting registration system (at the time of writing, this is typically found at a URL of the form "https://www.ietf.org/registration/&lt;meeting&gt;/attendance.py", such as "https://www.ietf.org/registration/ietf90/attendance.py"); you can quickly look up a name using this system if you are in doubt.</t>
+                <t>if you know part of the attendee's name, look up their full name in the meeting registration system (at the time of writing, this is typically found at a URL of the form "https://www.ietf.org/registration/&lt;meeting&gt;/attendance.py", such as "https://www.ietf.org/registration/ietf93/attendance.py"); you can quickly look up a name using this system if you are in doubt.</t>
               </list>
             </t>
             <t>Be aware that lag happens between the time when something is said in the physical room and the time when someone provides a response in the chatroom, and take this into account when the interaction is time-sensitive (e.g., during a hum or a show of hands).</t>
@@ -188,6 +188,7 @@
           <t>For network and media streaming issues, send email to tickets@meeting.ietf.org.</t>
           <t>For all other issues, send email to the "Meeting Trouble Desk" via mtd@ietf.org.</t>
           <t>To chat with members of the Network Operations Center (NOC), join the noc@jabber.ietf.org chatroom.</t>
+          <t>To report a problem with Meetecho, mention "Meetecho" (capital M) in the chat room and the Meetecho team will be alerted.  (They join the chat rooms for all sessions as the user "Meetecho".)
           <t>To report a problem in person, visit the help desk in the Terminal Room.</t>
         </list>
       </t>
@@ -312,7 +313,7 @@
     </references>
 
     <section title="Acknowledgements" anchor="acks">
-      <t>Thanks to Dan Burnett, Dave Crocker, Adrian Farrel, Wes George, Janet Gunn, Joel Halpern, Jelte Jansen, Michael Jenkins, Olle Johansson, Warren Kumari, Jonathan Lennox, Jon Mitchell, Alexandre Petrescu, Hugo Salgado, Melinda Shore, Lotte Steenbrink, Yaakov Stein, and Greg Wood for their helpful comments and suggestions.  Adrian Farrel in particular proposed text for the sections on IPR and dealing with inappropriate behavior.</t>
+      <t>Thanks to Dan Burnett, Dave Crocker, Adrian Farrel, Wes George, Janet Gunn, Joel Halpern, Jelte Jansen, Michael Jenkins, Olle Johansson, Warren Kumari, Jonathan Lennox, Jon Mitchell, Alexandre Petrescu, Hugo Salgado, Melinda Shore, Lotte Steenbrink, Yaakov Stein, Dave Thaler and Greg Wood for their helpful comments and suggestions.  Adrian Farrel in particular proposed text for the sections on IPR and dealing with inappropriate behavior.</t>
     </section>
 
   </back>
